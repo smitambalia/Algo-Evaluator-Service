@@ -1,6 +1,6 @@
 import express, { Express } from "express";
 
-import { serverConfig } from "./config/serverConfig";
+import serverConfig  from "./config/serverConfig";
 import apiRouter from "./routes";
 
 const app: Express = express();
