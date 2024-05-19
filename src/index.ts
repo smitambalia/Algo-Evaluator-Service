@@ -20,5 +20,12 @@ app.listen(serverConfig.PORT, () => {
     company: "Akhila Labs",
     position: "Member of Technical staff",
     location: "Remote | Ahmedabad | Jamjodhpur",
-  });
+  }, 2 );
+
+  sampleProducerQueue("SampleJob", {
+    name: "Yashree",
+    company: "Team India",
+    position: "Captain of Cricket Team India",
+    location: "Remote",
+  }, 1);
 });
